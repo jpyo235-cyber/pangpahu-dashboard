@@ -1,0 +1,44 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── 환경 ──
+.env
+.env.local
+.venv/
+venv/
+env/
+
+# ── 인증 토큰 (절대 커밋하지 마세요!) ──
+config/token*.json
+*.token
+*refresh_token*
+
+# ── 클라이언트 시크릿 (GitHub Secrets로 관리) ──
+config/client_secret*.json
+
+# ── 생성 결과물 ──
+assets/output/
+*.mp4
+*.mp3
+*.wav
+
+# ── IDE ──
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── 로그 ──
+*.log
+pipeline_log_*.json
